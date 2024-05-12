@@ -1,0 +1,40 @@
+	2: reserved word: int
+	2: ID, name= main
+	2: (
+	2: )
+	3: {
+	4: reserved word: int
+	4: ID, name= sum
+	4: =
+	4: NUM, val= 0
+	4: ;
+	5: reserved word: int
+	5: ID, name= num
+	5: =
+	5: NUM, val= 0
+	5: ;
+	7: reserved word: while
+	7: (
+	7: ID, name= num
+	7: <=
+	7: NUM, val= 100
+	7: )
+	8: {
+	9: ID, name= sum
+	9: =
+	9: ID, name= sum
+	9: +
+	9: ID, name= num
+	9: ;
+	10: ID, name= num
+	10: =
+	10: ID, name= num
+	10: +
+	10: NUM, val= 2
+	10: ;
+	11: }
+	13: reserved word: return
+	13: NUM, val= 0
+	13: ;
+	14: }
+	14: EOF
